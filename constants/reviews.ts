@@ -24,4 +24,10 @@ export const myReviews: RestaurantReview[] = [
     reviewedPlace: "Nusr-Et Steakhouse",
     rating: 5,
   },
+  {
+    title: "Maravilhoso",
+    body: "Sushi muito bom e fresco.",
+    reviewedPlace: "Crypto Sushi",
+    rating: 4.5,
+  },
 ];
