@@ -26,7 +26,7 @@ export const myReviews: RestaurantReview[] = [
   },
   {
     title: "Maravilhoso",
-    body: "Sushi muito bom e fresco.",
+    body: "Sushi muito bom e fresco. Ambientação e vistas maravilhosas.",
     reviewedPlace: "Crypto Sushi",
     rating: 4.5,
   },
