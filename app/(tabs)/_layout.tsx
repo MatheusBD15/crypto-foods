@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 
-import { Home, User } from "lucide-react-native";
+import { Home, MessageCircle } from "lucide-react-native";
 
 export default function TabLayout() {
   return (
@@ -14,11 +14,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="my-reviews"
         options={{
           headerShown: false,
-          title: "Meu perfil",
-          tabBarIcon: ({ color }) => <User size={28} color={color} />,
+          title: "Minhas análises",
+          tabBarIcon: ({ color }) => <MessageCircle size={28} color={color} />,
         }}
       />
     </Tabs>

@@ -26,11 +26,11 @@ export default function RestaurantCard({
         index === length - 1 ? "lg:mr-0" : "lg:mr-2"
       }`}
     >
-      <Link href={`/restaurant/${restaurant.id}`} asChild>
+      <Link href={`/restaurants/${restaurant.id}`} asChild>
         <Pressable className="w-full">
           <Box className="overflow-hidden rounded-md h-40">
             <Image
-              source={restaurant.image.uri}
+              source={restaurant.image}
               className={`h-40 w-full`}
               alt="Explorar"
             />

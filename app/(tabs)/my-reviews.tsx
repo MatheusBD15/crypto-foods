@@ -1,10 +1,10 @@
 import { Box } from "@/components/ui/box";
 import { Text } from "@/components/ui/text";
 
-export default function Profile() {
+export default function MyReviews() {
   return (
     <Box>
-      <Text>Profile</Text>
+      <Text>Reviews</Text>
     </Box>
   );
 }

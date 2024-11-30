@@ -18,7 +18,7 @@ export type Review = {
 export const baseRestaurants: Restaurant[] = [
   {
     name: "Sukiyabashi Jiro",
-    image: require("@/assets/images/restaurant1.jpg"),
+    image: require("../assets/images/restaurant1.jpg"),
     address: "Japão, 〒104-0061 Tokyo, Chuo City, Ginza, 4",
     rating: 4.9,
     id: 1,
@@ -51,7 +51,7 @@ export const baseRestaurants: Restaurant[] = [
   },
   {
     name: "Cédric Grolet",
-    image: require("@/assets/images/restaurant2.jpg"),
+    image: require("../assets/images/restaurant2.jpg"),
     address: "35 Av. de l'Opéra, 75002 Paris, França",
     rating: 4.4,
     id: 2,
@@ -59,7 +59,7 @@ export const baseRestaurants: Restaurant[] = [
   },
   {
     name: "Nusr-Et Steakhouse",
-    image: require("@/assets/images/restaurant3.jpg"),
+    image: require("../assets/images/restaurant3.jpg"),
     address: "60 W 53rd St, New York, NY 10019, Estados Unidos",
     rating: 4.8,
     id: 3,
