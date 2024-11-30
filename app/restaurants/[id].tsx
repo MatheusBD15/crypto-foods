@@ -11,7 +11,7 @@ import { Card } from "@/components/ui/card";
 import { Fab, FabIcon, FabLabel } from "@/components/ui/fab";
 import { Heading } from "@/components/ui/heading";
 import { HStack } from "@/components/ui/hstack";
-import { AddIcon, CloseIcon, Icon } from "@/components/ui/icon";
+import { AddIcon, CloseIcon, Icon, StarIcon } from "@/components/ui/icon";
 import { Input, InputField } from "@/components/ui/input";
 import {
   Modal,
@@ -72,7 +72,19 @@ export default function RestaurantPage() {
                 <AvatarBadge />
               </Avatar>
               <VStack>
-                <Heading>{review.title}</Heading>
+                <HStack className="justify-between">
+                  <Heading>{review.title}</Heading>
+                  <HStack className="items-center flex-start" space="sm">
+                    <Text size="sm" className="pl-1 text-typography-900">
+                      {review.rating}
+                    </Text>
+                    <Icon
+                      as={StarIcon}
+                      size="2xs"
+                      className="stroke-typography-900 fill-typography-900"
+                    />
+                  </HStack>
+                </HStack>
                 <Text size="sm" className="text-typography-500">
                   {review.reviewerName}
                 </Text>
