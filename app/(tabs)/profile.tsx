@@ -1,10 +1,10 @@
 import { Box } from "@/components/ui/box";
 import { Text } from "@/components/ui/text";
 
-export default function Settings() {
+export default function Profile() {
   return (
     <Box>
-      <Text>Settings</Text>
+      <Text>Profile</Text>
     </Box>
   );
 }
